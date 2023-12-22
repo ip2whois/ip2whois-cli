@@ -54,7 +54,7 @@ jobs:
         files: |
           ./build/${{ env.CLI_NAME }}_${{ env.CLI_VERSION }}*.tar.gz
           ./build/${{ env.CLI_NAME }}_${{ env.CLI_VERSION }}*.zip
-          ./build/ip2location-io-${{ env.CLI_VERSION }}*.deb
+          ./build/ip2whois-${{ env.CLI_VERSION }}*.deb
           # ./${{ env.CLI_NAME }}/macos.sh
           ./scripts/windows.ps1
           # ./${{ env.CLI_NAME }}/deb.sh
