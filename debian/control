@@ -1,0 +1,16 @@
+Source: ip2whois
+Standards-Version: 4.6.2
+Maintainer: IP2WHOIS <support@ip2whois.com>
+Section: utils
+Priority: optional
+Build-Depends: debhelper-compat (= 13),
+               dh-golang,
+               golang
+Vcs-Git: https://github.com/ip2whois/ip2whois-cli
+Vcs-browser: https://github.com/ip2whois/ip2whois-cli
+Homepage: https://www.ip2whois.com
+XS-Go-Import-Path: github.com/ip2whois/ip2whois-cli
+Package: ip2whois
+Version: 1.0.0
+Architecture: amd64
+Description: This is the official CLI for the IP2Whois.com WHOIS API.
