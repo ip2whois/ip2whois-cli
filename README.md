@@ -1,3 +1,5 @@
+[![Go Report Card](https://goreportcard.com/badge/github.com/ip2whois/ip2whois-cli)](https://goreportcard.com/report/github.com/ip2whois/ip2whois-cli)
+
 IP2WHOIS Go CLI
 ===============
 This Go command line tool enables user to query the WHOIS domain information for a specific domain name.
