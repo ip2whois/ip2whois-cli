@@ -5,7 +5,8 @@ Section: utils
 Priority: optional
 Build-Depends: debhelper-compat (= 13),
                dh-golang,
-               golang
+               golang,
+               golang-golang-x-net-dev
 Vcs-Git: https://github.com/ip2whois/ip2whois-cli
 Vcs-browser: https://github.com/ip2whois/ip2whois-cli
 Homepage: https://www.ip2whois.com
