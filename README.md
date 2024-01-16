@@ -34,6 +34,15 @@ curl -LO https://github.com/ip2whois/ip2whois-cli/releases/download/v1.0.0/ip2wh
 sudo dpkg -i ip2whois-1.0.0.deb
 ```
 
+#### Ubuntu PPA
+
+```
+sudo add-apt-repository ppa:ip2location/ip2whois
+sudo apt update
+sudo apt install ip2whois
+```
+
+
 
 ### Windows Powershell
 
