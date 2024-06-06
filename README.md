@@ -49,7 +49,7 @@ sudo apt install ip2whois
 Launch Powershell as administrator then run the below:
 
 ```bash
-iwr -useb https://github.com/ip2whois/ip2whois-cli/releases/download/v1.0.0/windows.ps1 | iex
+iwr -useb https://raw.githubusercontent.com/ip2whois/ip2whois-cli/main/scripts/windows.ps1 | iex
 ```
 
 
